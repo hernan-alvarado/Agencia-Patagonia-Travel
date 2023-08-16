@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Patagonia Travel</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand mx-5">
+            <h2>Patagonia Travel</h2>
+        </a>
+        <button class="navbar-toggler" style="margin-inline-start: 0;" type="button"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <!-- Elegir opciones de actividades a realizar -->
+
+    <div class="container">
+            <h1 id="titulo">¿Qué actividad le gustaría hacer?</h1>
+            <div class="row">
+                <h2>Actividades:</h2>
+                <select class="form-select mx-2" id="select">
+                    <option id="Uno" value="1">Trekking</option>
+                    <option id="Dos" value="2">Natacion</option>
+                    <option id="Tres" value="3">Ferry</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="container mt-5" id="contenedor">
+            <div class="card bg-light text-dark">
+                <img src="assets/img/trekking.jpg" class="card-img" style="height: 5;" id="trekking">
+                <div id="agregarubicacionTrekking"></div>
+                <div class="card-body">
+                    <p class="card-text textoUno">"Modalidad de excursionismo que consiste en recorrer a
+                        pie largas distancias o zonas determinadas, generalmente de alta montaña y poco frecuentadas por
+                        el turismo convencional."</p>
+                        <p class="card-text textoDos"><b>Conocer más</b></p>
+                        <p class="card-text textoTres mt-2">Agendar actividad</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5" id="contenedorUno">
+            <div class="card bg-light text-dark">
+                <img src="assets/img/natacion.jpg" class="card-img" style="height: 5;" id="natacion">
+                <div id="agregarubicacionNatacion"></div>
+                <div class="card-body">
+                    <p class="card-text textoUno">"Deporte o ejercicio que consiste en nadar; en las
+                        pruebas de natación se compite en velocidad, en cualquiera de los cuatro estilos: braza, crol,
+                        espalda y mariposa."</p>
+                        <p class="card-text textoDos"><b>Conocer más</b></p>
+                        <p class="card-text textoTres mt-2">Agendar actividad</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container mt-5 mb-5" id="contenedorDos">
+            <div class="card bg-light text-dark">
+                <img src="assets/img/ferry.jpg" class="card-img" alt="ferry" style="height: 5;" id="ferry">
+                <div id="agregarubicacionFerry"></div>
+                <div class="card-body">
+                    <p class="card-text textoUno">"Embarcación que realiza alternativamente el mismo recorrido
+                        entre dos puntos; especialmente la de grandes dimensiones destinada al transporte de cargas
+                        pesadas o pasajeros."</p>
+                    <p class="card-text textoDos"><b>Conocer más</b></p>
+                    <p class="card-text textoTres mt-2">Agendar actividad</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+        <script src="assets/js/script.js"></script>
+</body>
+
+</html>
